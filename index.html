@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>YouTube Clone Page</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+<body>
+	<!-- YouTube navigation bar -->
+	<header>
+		<div class="button-container">
+            <a href="#"><img src="images/bars.svg"></a>
+        </div>
+        <a href="#"><img src="images/youtube-play.svg"></a>
+        <form>
+            <input id="search-bar" type="text" placeholder="Search">
+        </form>
+        <button id="search-button">
+            <img src="images/search-icon.svg">
+        </button>
+		<button id="signin-button">SIGN IN</button>
+
+	</header>
+
+	<!-- YouTube related videos -->
+	<aside>
+		<h4>Up next</h4>
+        <div id="autoplay-container">
+            <h5>AUTOPLAY</h5>
+            <div id="autoplay-bg"></div>
+            <div id="autoplay-btn"></div>
+		</div>
+		<!-- Video list -->
+        <a href="#">
+        	<article class="sidebar-vid">
+            	<img src="images/thumbnail1.jpg">
+                <div>
+                    <h5>HTML5 Tutorial For Beginners - part 1 of 6 - Getting Started</h5>
+                    <h6>tutor4u</h6>
+                    <h6>1M views</h6>
+                </div>
+            </article>
+		</a>	
+        <a href="#">
+        	<article class="sidebar-vid">
+            	<img src="images/thumbnail2.jpg">
+                <div>
+                    <h5>HTML5 Apps vs Native Apps</h5>
+                    <h6>Android Authority<h6>
+                    <h6>135K views</h6>
+                </div>
+            </article>
+		</a>
+        <a href="#">
+        	<article class="sidebar-vid">
+            	<img src="images/thumbnail3.jpg">
+                <div>
+                    <h5>The History of Google</h5>
+                    <h6>Techquickie</h6>
+                    <h6>356K views</h6>
+                </div>
+            </article>
+		</a>	
+        <a href="#">
+        	<article class="sidebar-vid">
+            	<img src="images/thumbnail4.jpg">
+                <div>
+                    <h5>Web Development In 2017 - A Practical Guide</h5>
+                    <h6>Traversy Media</h6>
+                    <h6>786K views</h6>
+                </div>
+            </article>
+		</a>	
+        <a href="#">
+        	<article class="sidebar-vid">
+            	<img src="images/thumbnail5.jpg">
+                <div>
+                    <h5>How Do Passwords Get Stolen?</h5>
+                    <h6>Techquickie</h6>
+                    <h6>208K views</h6>
+                </div>
+            </article>
+		</a>	
+	</aside>
+
+	<!-- YouTube embedded video -->
+	<div id="container">
+		<iframe src="https://www.youtube.com/embed/IsXEVQRaTX8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+			
+		</iframe>
+		<!-- Video description-->
+		<section id="description">
+			<h3>HTML5 as Fast As Possible</h3>
+			<h4>613,470 views</h4>
+		</section>
+		<!-- YouTube comments -->
+		<section id="comments">
+			<h3>3 Comments</h3>
+
+			<form>
+				<input type="text" placeholder="Add a public comment...">
+			</form>
+		
+			<article>
+				<div class="image-container">
+					<img src="">
+				</div>
+				<div class="comment-text">
+					<h4>Bob</h4>
+	                <span class="comment-date">5 days ago</span>
+	                <p>What a useful video!</p>
+	                <a href="#"><button>REPLY</button></a>
+					<span class="like-count">1</span>
+				</div>
+			</article>
+			<article>
+				<div class="image-container">
+					<img src="">
+				</div>
+				<div class="comment-text">
+				    <h4>Tyler</h4>
+	                <span class="comment-date">6 days ago</span>
+	                <p>thanks!!</p>
+	                <a href="#"><button>REPLY</button></a>
+					<span class="like-count">2</span>		
+				</div>
+			</article>
+			<article>
+				<div class="image-container">
+					<img src="">
+				</div>
+				<div class="comment-text">
+				    <h4>Jon</h4>
+	                <span class="comment-date">10 days ago</span>
+	                <p>cool!</p>
+	                <a href="#"><button>REPLY</button></a>
+					<span class="like-count">5</span>
+				</div>
+			</article>
+		</section>	
+	</div>
+</body>
